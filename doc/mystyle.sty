@@ -8,15 +8,21 @@
 \RequirePackage[hidelinks]{hyperref}
 \RequirePackage{listings}
 \RequirePackage{float}
+\RequirePackage{algorithm}
+\RequirePackage{algorithmic}
 \RequirePackage{geometry} 
+\RequirePackage{subfig}
 \RequirePackage{pgfplots}
 \RequirePackage{fancyhdr}
+\RequirePackage{caption}
 \RequirePackage{xepersian}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Setting Font 
 \settextfont{XB Niloofar}
-\setlatintextfont[Scale=.9]{Noto Serif}
-\setdigitfont[Scale=.9]{Yas}
+\setlatintextfont[Scale=1.1]{Noto Serif}
+\setdigitfont[Scale=1.1]{Yas}
+\setlength{\parskip}{.3cm}
+\renewcommand{\baselinestretch}{1.5}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \pgfplotsset{compat=1.16}
@@ -26,7 +32,7 @@
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.98,0.98,0.98}
 \definecolor{deepblue}{rgb}{0.5,0.5,0.98}
-
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
 	top=2.5cm, % Top margin
@@ -92,9 +98,9 @@ not set. Please fix this.}
 {\huge\bfseries\@title\unskip\strut\par}
 {\huge\bfseries\@titleextra\unskip\strut\par}
 \vspace{2cm}
-{\Large\itshape\@author\unskip\strut\par}
-{\Large\itshape\@authortwo\unskip\strut\par}
-{\Large\itshape\@authorthree\unskip\strut\par}
+{\itshape\@author\unskip\strut\par}
+{\itshape\@authortwo\unskip\strut\par}
+{\itshape\@authorthree\unskip\strut\par}
 \vfill
 استاد ناظر\par
 \@supervisor\unskip\strut\par

@@ -21,5 +21,5 @@ This gif shows the execution of the program. the green rectangle is the starting
 ![Alt text](./astar.gif)
 
 ### Dijkstra algorithm simulation
-To run the Dijkstra algorithm you can use A* algorithm but the only thing that you need to change is to change f(n) function to f(n) = g(n).
+To run the Dijkstra algorithm you can use A* algorithm but the only thing that you need to change is to change f(n) function to f(n)=g(n).
 ![Alt text](./dijkstra.gif)
