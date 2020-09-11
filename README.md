@@ -1,5 +1,5 @@
 # Path Planning
-**This project is a Robtics Course (Winter 2020) Project of [Bu-Ali Sina University](http://basu.ac.ir/en/home)**
+**This project is a Robtics Course (Winter 2020) Project of [Computer Engineering Bu-Ali Sina University](http://eng.basu.ac.ir/en/ce)**
 ## intro
 Path-planning is an important primitive for autonomous mobile robots that lets robots find the shortest --or otherwise optimal-- path between two points. Optimal paths could be paths that minimize the amount of turning, the amount of braking or whatever a specific application requires. Algorithms to find the shortest path are important not only in robotics but also in network routing, video games, and understanding protein folding.
 ## Python Implementation
